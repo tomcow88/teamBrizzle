@@ -8,3 +8,6 @@ assignees: ''
 ---
 
 As a ROLE, I can CAPABILITY, so that RECEIVED BENEFIT.
+
+##Acceptance Criteria
+-criteria
