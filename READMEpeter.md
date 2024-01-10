@@ -58,6 +58,11 @@ We perused various sites on https://colorlib.com/wp/artist-portfolio-websites/
 
 We finally settled on https://www.rayhart.com/rayhart as the primary source of inspiration
 
+Form taken from https://www.reusableforms.com/f/contact-form-in-bootstrap/obnfe8uh/
+
+Art produced by https://www.bing.com/images/create/dog-playing-in-ocean-spray/1-659f0f3e93c24653a979edc04ea7f3e5?FORM=GENCRE
+
+For help with hyperlinking email and phone numbers https://www.tutorialspoint.com/html/html_email_links.htm
 
 ### Content 
 
