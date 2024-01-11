@@ -17,7 +17,7 @@ footer {
 
     margin: auto;
     text-decoration: bold;
-    border: 0px solid black;
+    border: 5px solid black;
     padding: 10px;
     border-radius: 10%;
     opacity: 100%;
@@ -87,6 +87,13 @@ body {
     margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+.contact-page {
+    height: 100vh;
+    width: 100%;
+    background: url("../images/dog_in_ocean.jpg") no-repeat center center/cover;
+    position: relative;
 }
 
 
