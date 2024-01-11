@@ -51,6 +51,31 @@ header li {
     background-color: #970161;
 }
 
+/*-------------------------------------------------- Hero Section */
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/dog_in_ocean.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text>h2,
+#cover-text>h3 {
+    color: #ffffff;
+}
+
 /*---------------------------------------Main--------*/
 
 main {
@@ -73,6 +98,6 @@ padding-top: 8px;
 }
 
 .footer-item {
-    padding: 20px;
+    padding: 16px;
     color: #f5721b;
 }
