@@ -1,36 +1,78 @@
-/* ----------------------------------------Footer */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-footer {
-    background-color: #525252;
-    color: #fafafa;
-    min-height: 120px;
+/*--------------------------------------General Styles-------*/
+
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 }
 
-.social-links {
-    padding-bottom: 15px;
+.uppercase {
+    text-transform: uppercase;
 }
 
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+.inline-block {
+    display: inline-block;
+}
+
+/*--------------------------------------Header-------*/
+
+header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover {
-    background: #e84610;
+.navbar-toggler {
+    border: none;
 }
 
-#footer-details {
+header li {
+    color: orange;
+}
+
+.bg-color-navbar {
+    background-color: #970161;
+}
+
+.nav-link {
+    background-color: #970161;
+}
+
+/*---------------------------------------Main--------*/
+
+main {
+    background: orange;
+    margin: 0;
+    margin-top: 40px;
+}
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #970161;
+    color: #f5721b;
+    min-height: 30px;
+    margin: 0;
+}
+
+.contact-details {
+padding-top: 8px;
+}
+
+.footer-item {
     padding: 20px;
+    color: #f5721b;
 }
