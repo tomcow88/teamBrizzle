@@ -1,0 +1,85 @@
+footer {
+
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin-top: 10rem;
+
+
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+.phone-email {
+    text-decoration: white !important;
+}
+
+
+
+/*-----------contact page------------- */
+
+
+
+a {
+    color: white;
+}
+
+body {
+
+    background-image: url("../images/dog3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.text-input {
+
+    background: transparent;
+    border: 1px solid #080808;
+    border-radius: 2px;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    padding: 0 5px;
+}
+
+#contact_form {
+
+    bottom: 15%;
+    opacity: 70%;
+}
