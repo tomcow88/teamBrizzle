@@ -1,6 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*--------------------------------------General Styles-------*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /*--------------------------------------Header-------*/
 
 header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     margin: 0;
 }
 
@@ -8,16 +29,26 @@ header {
     padding: 0;
 }
 
+.logo {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
 header li {
     color: orange;
 }
 
 .bg-color-navbar {
-    background-color: blue;
+    background-color: #970161;
 }
 
 .nav-link {
-    background-color: blue;
+    background-color: #970161;
 }
 
 /*---------------------------------------Main--------*/
@@ -25,18 +56,23 @@ header li {
 main {
     background: orange;
     margin: 0;
+    margin-top: 40px;
 }
 
 /* ----------------------------------------Footer */
 
 footer {
-    background-color: #525252;
-    color: #fafafa;
+    background-color: #970161;
+    color: #f5721b;
     min-height: 30px;
     margin: 0;
 }
 
+.contact-details {
+padding-top: 8px;
+}
+
 .footer-item {
-    padding: 30px;
-    color: #fafafa;
+    padding: 20px;
+    color: #f5721b;
 }
