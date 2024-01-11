@@ -94,10 +94,30 @@ footer {
 }
 
 .contact-details {
-padding-top: 8px;
+    padding-top: 8px;
 }
 
 .footer-item {
     padding: 16px;
     color: #f5721b;
+}
+
+
+/* PETERS CSS */
+
+.form {
+    font: 900;
+    border-width: 2px;
+    height: 50%;
+    width: 50%;
+    align-self: center;
+
+    margin: auto;
+    text-decoration: bold;
+    border: 0px solid black;
+    padding: 10px;
+    border-radius: 10%;
+    opacity: 100%;
+    background-color: rgba(52, 53, 56, 0.5);
+    backdrop-filter: 100%;
 }
