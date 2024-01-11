@@ -82,7 +82,7 @@ r #cover-text>h3 {
 /*---------------------------------------Main--------*/
 
 main {
-    background: #680142;
+    background: orange;
     margin: 0;
     margin-top: 40px;
 }
@@ -112,24 +112,68 @@ footer {
 .form {
     font: 900;
     border-width: 2px;
-    height: 50%;
-    width: 50%;
+    height: 10%;
+    width: 10%;
     align-self: center;
-
 
     margin: auto;
     text-decoration: bold;
+    border: 5px solid black;
     padding: 10px;
-    border-radius: 1;
+    border-radius: 10%;
     opacity: 100%;
-    background-color: rgb(245, 114, 27);
+    background-color: rgb(245, 114, 27, 0.8);
     backdrop-filter: 100%;
+
 
 
 }
 
+#contact_form {
+    opacity: 100%;
+}
+
 .button {
     text-align: center;
+}
+
+.contact-page {
+    height: 100%;
+    width: 100%;
+    background: url("../images/dog_in_ocean.jpg") no-repeat center center/cover;
+
+}
+
+@media only screen and (max-width: 576px) {
+    .form {
+
+        width: 50%;
+
+
+    }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .form {
+        width: 50%;
+
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .form {
+        width: 90%;
+
+    }
+
+}
+
+form {
+    margin-top: 5em;
 }
 
 /*Josh CSS*/
@@ -138,11 +182,4 @@ footer {
     width: 50%;
     height: 50%;
     margin: auto;
-}
-
-.contact-page {
-    height: 100vh;
-    width: 100%;
-    background: url("../images/dog_in_ocean.jpg") no-repeat center center/cover;
-    position: relative;
 }
