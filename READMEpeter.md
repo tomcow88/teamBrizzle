@@ -29,6 +29,7 @@ We would have considered adding a price structure but assigned it a "wont have" 
 
 Considered a reviews section but defined it as a "won't have" given the time available. We felt that also it may appear somewhat gauche on an artistic website, and there were links to social media should provide access to reviews if desired by the user.
 
+Contact page/Form: Feedback once form has been submitted would be nice however there isn't the backend to receive the form currently in place.
 
 ## Testing 
 
@@ -63,6 +64,10 @@ Form taken from https://www.reusableforms.com/f/contact-form-in-bootstrap/obnfe8
 Art produced by https://www.bing.com/images/create/dog-playing-in-ocean-spray/1-659f0f3e93c24653a979edc04ea7f3e5?FORM=GENCRE
 
 For help with hyperlinking email and phone numbers https://www.tutorialspoint.com/html/html_email_links.htm
+
+For validation in HTML https://validator.w3.org/
+
+For validation in CSS https://jigsaw.w3.org/css-validator/
 
 ### Content 
 
