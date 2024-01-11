@@ -94,6 +94,7 @@ footer {
     color: rgb(245, 114, 27);
     min-height: 30px;
     margin: 0;
+    /*vertical-align: bottom;*/
 }
 
 .contact-details {
@@ -115,12 +116,23 @@ footer {
     width: 50%;
     align-self: center;
 
+    
     margin: auto;
     text-decoration: bold;
-    border: 0px solid black;
     padding: 10px;
-    border-radius: 10%;
+    border-radius: 1;
     opacity: 100%;
-    background-color: rgba(52, 53, 56, 0.5);
+    /*background-color: rgb(245, 114, 27);*/
     backdrop-filter: 100%;
+
+
 }
+
+/*Josh CSS*/
+
+.about-main{
+    width: 50%;
+    height:50%;
+    margin: auto;
+}
+
