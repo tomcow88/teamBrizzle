@@ -58,7 +58,7 @@ a {
 
 body {
 
-    background-image: url("dog3.jpeg");
+    background-image: url("../images/dog3.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
