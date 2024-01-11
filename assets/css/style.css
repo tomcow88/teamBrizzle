@@ -82,7 +82,7 @@ r #cover-text>h3 {
 /*---------------------------------------Main--------*/
 
 main {
-    background: orange;
+    background: #680142;
     margin: 0;
     margin-top: 40px;
 }
@@ -110,27 +110,69 @@ footer {
 /* PETERS CSS */
 
 .form {
-    font: 900;
+    position: absolute;
     border-width: 2px;
-    height: 50%;
-    width: 50%;
-    align-self: center;
-
-
-    margin: auto;
+    margin: 50px;
     text-decoration: bold;
-    padding: 10px;
-    border-radius: 1;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 25px;
     opacity: 100%;
-    background-color: rgb(245, 114, 27);
+    background-color: rgb(245, 114, 27, 0.8);
     backdrop-filter: 100%;
-
-
 }
 
 .button {
     text-align: center;
+    border-radius: 2px;
+    font-size: 100%;
+    margin-top: 20px;
+    padding: 15px 32px;
 }
+
+.btn {
+    background-color: rgba(151, 1, 97, 0.8);
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgba(151, 1, 97, 1);
+}
+
+#contact-page {
+    height: 100vh;
+    width: 100%;
+    background: url("../images/dog_in_ocean.jpg") no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 576px) {
+    .form {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .form {
+        width: 70%;
+
+    }
+
+    @media only screen and (min-width: 1024px) {
+        .form {
+            width: 60%;
+        }
+
+        #contact-page {
+            height: 89vh;
+        }
+
+    }
+}
+
 
 /*Josh CSS*/
 
@@ -138,11 +180,4 @@ footer {
     width: 50%;
     height: 50%;
     margin: auto;
-}
-
-.contact-page {
-    height: 100vh;
-    width: 100%;
-    background: url("../images/dog_in_ocean.jpg") no-repeat center center/cover;
-    position: relative;
 }
