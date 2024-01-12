@@ -284,10 +284,14 @@ footer {
 @media only screen and (min-width: 1400px) {
 
     .about-me-text h2 {
-        margin-top: 20%;
+        margin-top: 10%;
     }
 
     .form {
         width: 30%;
+    }
+
+    .about-me-text p {
+        font-size: x-large;
     }
 }
