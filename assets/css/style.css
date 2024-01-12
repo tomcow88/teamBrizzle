@@ -199,7 +199,7 @@ footer {
 }
 
 .about-me-text h2 {
-    padding: 25px 0;
+    padding: 10px 0;
     font-weight: 500;
 }
 
@@ -225,6 +225,7 @@ footer {
 
     .about-me-text h2 {
         font-weight: 700;
+        padding: 25px 0;
     }
 
     .about-me-text p {
