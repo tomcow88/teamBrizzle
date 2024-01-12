@@ -128,16 +128,15 @@ footer {
 /* PETERS CSS */
 
 .form {
+    font-weight: 500;
     position: absolute;
     border-width: 2px;
     margin: 50px;
-    text-decoration: bold;
     border: 5px solid black;
     padding: 20px;
     border-radius: 25px;
     opacity: 100%;
     background-color: rgba(245, 114, 27, 0.95);
-    backdrop-filter: 100%;
 }
 
 .button {
@@ -149,6 +148,8 @@ footer {
 }
 
 .btn {
+    font-weight: 500;
+    color: #000;
     background-color: rgba(151, 1, 97, 0.8);
     border: none;
 }
@@ -194,12 +195,10 @@ footer {
     max-width: 70%;
     border-width: 2px;
     margin: 50px;
-    text-decoration: bold;
     border: 5px solid black;
     padding: 20px;
     border-radius: 25px;
     background: rgba(245, 114, 27, 0.95);
-    backdrop-filter: 100%;
     opacity: 100%;
 }
 
