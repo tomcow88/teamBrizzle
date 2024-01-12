@@ -48,43 +48,44 @@
     <main>
         <section id="contact-page">
             <div class="form">
-                <form id="contact-form d-flex justify-content-center" name="contact-form" method="post" action="https://formdump.codeinstitute.net/">
+                <form id="contact-form d-flex justify-content-center" name="contact-form" method="post"
+                    action="https://formdump.codeinstitute.net/" target="_blank">
                     <div class="row">
-                    <div class="col-12 text-center">
-                    <h1>Contact Me!</h1>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <label>First Name</label>
-                            <input type="text" required maxlength="50" class="form-control" id="first_name"
-                                name="first_name">
+                        <div class="col-12 text-center">
+                            <h1>Contact Me!</h1>
                         </div>
-                        <div class="col-sm-6">
-                            <label>Last Name</label>
-                            <input type="text" required maxlength="50" class="form-control" id="last_name"
-                                name="last_name">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label>First Name</label>
+                                <input type="text" required maxlength="50" class="form-control" id="first_name"
+                                    name="first_name">
+                            </div>
+                            <div class="col-sm-6">
+                                <label>Last Name</label>
+                                <input type="text" required maxlength="50" class="form-control" id="last_name"
+                                    name="last_name">
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <label for="email_addr">Email address</label>
-                            <input type="email" required maxlength="50" class="form-control" id="email_addr"
-                                name="email" placeholder="name@example.com">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label for="email_addr">Email address</label>
+                                <input type="email" required maxlength="50" class="form-control" id="email_addr"
+                                    name="email" placeholder="name@example.com">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="phone_input">Phone</label>
+                                <input type="tel" required maxlength="50" class="form-control" id="phone_input"
+                                    name="Phone" placeholder="Phone">
+                            </div>
                         </div>
-                        <div class="col-sm-6">
-                            <label for="phone_input">Phone</label>
-                            <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
-                                placeholder="Phone">
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5"
+                                placeholder="Interested in commissioning me for your own pet’s portrait? Any other questions? Please let me know!"></textarea>
                         </div>
-                    </div>
-                    <div>
-                        <label for="message">Message</label>
-                        <textarea class="form-control" id="message" name="message" rows="5"
-                            placeholder="Interested in commissioning me for your own pet’s portrait? Any other questions? Please let me know!"></textarea>
-                    </div>
-                    <div class="button">
-                        <button type="submit" id="button" class="btn btn-primary px-4 btn-lg">Post</button>
-                    </div>
+                        <div class="button">
+                            <button type="submit" id="button" class="btn btn-primary px-4 btn-lg">Post</button>
+                        </div>
                 </form>
             </div>
         </section>

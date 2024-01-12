@@ -79,6 +79,11 @@ header li {
     border-radius: 25px;
 }
 
+#cover-text i {
+    color: #970161;
+
+}
+
 #cover-text>h2 {
     color: #000000;
 }
@@ -267,7 +272,7 @@ footer {
         width: 40%;
     }
 
-    
+
     .about-me-text h2 {
         padding-top: 0;
     }
