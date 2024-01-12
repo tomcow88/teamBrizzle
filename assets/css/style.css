@@ -45,7 +45,7 @@ header {
 }
 
 header li {
-    color: orange;
+    color: #f5721b;
 }
 
 .bg-color-navbar {
@@ -131,7 +131,7 @@ footer {
     padding: 20px;
     border-radius: 25px;
     opacity: 100%;
-    background-color: rgb(245, 114, 27, 0.8);
+    background-color: rgba(245, 114, 27, 0.95);
     backdrop-filter: 100%;
 }
 
@@ -161,6 +161,59 @@ footer {
     justify-content: center;
 }
 
+
+/*Josh CSS*/
+
+#bg-about-me {
+    height: 100vh;
+    width: 100%;
+    background: url("../images/woodland.jpg") no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.self-portrait>img {
+    height: auto;
+    width: 100%;
+    margin: 20% 5px;
+    max-height: 450px;
+    max-width: 450px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me {
+    position: absolute;
+    max-width: 70%;
+    border-width: 2px;
+    margin: 50px;
+    text-decoration: bold;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 25px;
+    background: rgba(245, 114, 27, 0.95);
+    backdrop-filter: 100%;
+    opacity: 100%;
+}
+
+.about-me-text h2 {
+    padding: 25px 0;
+    font-weight: 500;
+}
+
+.about-me-text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.about-me-text p i {
+    color: #970161;
+    font-size: 150%;
+}
+
 @media only screen and (min-width: 576px) {
     .form {
         width: 90%;
@@ -168,6 +221,15 @@ footer {
 
     #cover-text {
         width: 50%;
+    }
+
+    .about-me-text h2 {
+        font-weight: 700;
+    }
+
+    .about-me-text p {
+        font-size: larger;
+        font-weight: 500;
     }
 
 }
@@ -180,32 +242,47 @@ footer {
     #cover-text {
         width: 50%;
     }
+}
 
-    @media only screen and (min-width: 1024px) {
-        .form {
-            width: 60%;
-        }
+@media only screen and (min-width: 1024px) {
 
-        #contact-page {
-            height: 89vh;
-        }
+    .form {
+        width: 60%;
+    }
 
-        #hero {
-            height: 89vh;
-        }
+    #contact-page {
+        height: 90vh;
+    }
 
-        #cover-text {
-            width: 40%;
-        }
+    #hero {
+        height: 90vh;
+    }
 
+    #bg-about-me {
+        height: 90vh;
+    }
+
+    #cover-text {
+        width: 40%;
+    }
+
+    
+    .about-me-text h2 {
+        padding-top: 0;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .about-me-text h2 {
+        margin-top: 10%;
     }
 }
 
+@media only screen and (min-width: 1400px) {
 
-/*Josh CSS*/
-
-.about-main {
-    width: 50%;
-    height: 50%;
-    margin: auto;
+    .about-me-text h2 {
+        margin-top: 20%;
+    }
 }
