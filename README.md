@@ -4,7 +4,9 @@ The Pawtrait Purrfectionist website is designed to market our artist, whose focu
 
 ## Features 
 
-Landing page: A full cover high quality background  of one of our artist’s finest portraits, with a brief sentence overlaid, describing the services offered by our website.
+Landing/Home page: A full cover high quality background  of one of our artist’s finest portraits, with a brief sentence overlaid, describing the services offered by our website.
+
+<img src="assets/images/readme/accessibility.png" alt="Screenshot of code alt being added to images">
 
 Gallery page: Will display our artist’s pet portrait portfolio in high quality images. This will assure the user the artist can provide high quality, uniquely stylised, portraits of their own pets. [Or alternatively that their work would be suitable for an exhibition?] 
 
@@ -34,6 +36,17 @@ We selected a captivating comic book style, using bright high contrast colours, 
 
 <strong>Wire Frames</strong>
 
+Home Page
+
+<img src="assets/images/readme/home.png" alt="Wireframe image of Home page">
+
+About Page
+
+<img src="assets/images/readme/about.png" alt="Wireframe image of About page">
+
+Contact Page
+
+<img src="assets/images/readme/contact.png" alt="Wireframe image of Contact page">
 
 <strong>User Stories</strong>
 
@@ -61,20 +74,6 @@ We selected a captivating comic book style, using bright high contrast colours, 
 11. As a User, I can view the About Me page
 
 
-
-## Testing Section
-
-
-
-
-
-## Features Left to Implement
-
-We considered adding a price structure but assigned it a "wont have" on our kanban board, as it would be difficult to implement in the time available given the need for payment processing options etc, and potentially seen as gauche and detract from the value of the artist's work, having reviewed other artist's websites e.g.https://www.rayhart.com/rayhart
-
-Considered a reviews section but defined it as a "won't have" given the time available. We felt that also it may appear somewhat gauche on an artistic website, and there were links to social media should provide access to reviews if desired by the user.
-
-Contact page/Form: Feedback once form has been submitted would be nice however there isn't the backend to receive the form currently in place.
 
 ## Testing 
 
@@ -183,15 +182,20 @@ Contact page/Form: Feedback once form has been submitted would be nice however t
 </table>
 
 
+## Features Left to Implement
 
+We considered adding a price structure but assigned it a "wont have" on our kanban board, as it would be difficult to implement in the time available given the need for payment processing options etc, and potentially seen as gauche and detract from the value of the artist's work, having reviewed other artist's websites e.g.https://www.rayhart.com/rayhart
+
+Considered a reviews section but defined it as a "won't have" given the time available. We felt that also it may appear somewhat gauche on an artistic website, and there were links to social media should provide access to reviews if desired by the user.
+
+Phone number and email address not interactive which would be nice but ran out of time
 
 ### Validator Testing 
 
 
-HTML
-  
+For HTML validation https://validator.w3.org/
 
-CSS
+For CSS validation  https://jigsaw.w3.org/css-validator/
   
 
 ### Unfixed Bugs
@@ -204,16 +208,19 @@ CSS
 
 ## Credits 
 
-
-### Content 
-
 We perused various sites on https://colorlib.com/wp/artist-portfolio-websites/
 
 We finally settled on https://www.rayhart.com/rayhart as the primary source of inspiration
 
-Form taken from https://www.reusableforms.com/f/contact-form-in-bootstrap/obnfe8uh/
+### Content 
+
+Skeleton form code taken from https://www.reusableforms.com/f/contact-form-in-bootstrap/obnfe8uh/
+
+Help with form opacity and to provide a target for the completed form taken from Love Running https://8000-peterbrown4-loverunning-xmpdh8b7eut.ws-eu107.gitpod.io/signup.html
 
 For help with hyperlinking email and phone numbers https://www.tutorialspoint.com/html/html_email_links.htm
+
+Social Media links taken from fontawesome https://fontawesome.com/icons/categories/social
 
 For validation in HTML https://validator.w3.org/
 
@@ -221,8 +228,11 @@ For validation in CSS https://jigsaw.w3.org/css-validator/
 
 For ReadME table https://www.shecodes.io/athena/2362-creating-a-table-with-4-columns-and-4-rows-in-html
 
+Wireframes produced using Balsamiq WireFrames https://balsamiq.com/wireframes/?gad_source=1&gclid=CjwKCAiA44OtBhAOEiwAj4gpOexFh0z3peWS6wolbjlJt_fLq7cZGNu99YeMSIpU89wlL2p6ZluXiRoCOSUQAvD_BwE
+
 ### Media
 
-Art produced by https://www.bing.com/images/create/dog-playing-in-ocean-spray/1-659f0f3e93c24653a979edc04ea7f3e5?FORM=GENCRE
+Art and images produced by https://www.bing.com/images/create/
 
 ## Other General Project Advice
+
