@@ -123,6 +123,7 @@ footer {
 /* PETERS CSS */
 
 .form {
+    font-weight: 500;
     position: absolute;
     border-width: 2px;
     margin: 50px;
@@ -142,6 +143,8 @@ footer {
 }
 
 .btn {
+    font-weight: 500;
+    color: #000;
     background-color: rgba(151, 1, 97, 0.8);
     border: none;
 }
