@@ -126,13 +126,11 @@ footer {
     position: absolute;
     border-width: 2px;
     margin: 50px;
-    text-decoration: bold;
     border: 5px solid black;
     padding: 20px;
     border-radius: 25px;
     opacity: 100%;
     background-color: rgba(245, 114, 27, 0.95);
-    backdrop-filter: 100%;
 }
 
 .button {
@@ -189,12 +187,10 @@ footer {
     max-width: 70%;
     border-width: 2px;
     margin: 50px;
-    text-decoration: bold;
     border: 5px solid black;
     padding: 20px;
     border-radius: 25px;
     background: rgba(245, 114, 27, 0.95);
-    backdrop-filter: 100%;
     opacity: 100%;
 }
 
