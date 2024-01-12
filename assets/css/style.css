@@ -72,7 +72,7 @@ header li {
     bottom: 30px;
     left: 30px;
     width: 80%;
-    min-height: 175px;
+    min-height: 125px;
     padding-top: 8px;
     padding-left: 10px;
     border: 2px solid black;
@@ -93,7 +93,7 @@ header li {
 }
 
 #cover-text>p {
-    font-size: larger;
+    display: none;
     font-weight: 500;
 }
 
@@ -218,7 +218,26 @@ footer {
     font-size: 150%;
 }
 
+@media only screen and (min-width: 340px) {
+    .about-me {
+        margin: 50px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+
+    #cover-text>p {
+        font-size: medium;
+        display: block;
+    }
+}
+
 @media only screen and (min-width: 576px) {
+    
+    #cover-text>p {
+        font-size: larger;
+    }
+    
     .form {
         width: 90%;
     }
@@ -237,12 +256,6 @@ footer {
         font-weight: 500;
     }
 
-}
-
-@media only screen and (min-width: 340px) {
-    .about-me {
-        margin: 50px;
-    }
 }
 
 @media only screen and (min-width: 768px) {
