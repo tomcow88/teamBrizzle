@@ -194,7 +194,7 @@ footer {
     position: absolute;
     max-width: 70%;
     border-width: 2px;
-    margin: 50px;
+    margin: 10px;
     border: 5px solid black;
     padding: 20px;
     border-radius: 25px;
@@ -237,6 +237,12 @@ footer {
         font-weight: 500;
     }
 
+}
+
+@media only screen and (min-width: 340px) {
+    .about-me {
+        margin: 50px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
