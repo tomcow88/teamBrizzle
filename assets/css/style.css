@@ -247,7 +247,7 @@ footer {
 @media only screen and (min-width: 1024px) {
 
     .form {
-        width: 60%;
+        width: 40%;
     }
 
     #contact-page {
@@ -284,5 +284,9 @@ footer {
 
     .about-me-text h2 {
         margin-top: 20%;
+    }
+
+    .form {
+        width: 30%;
     }
 }
